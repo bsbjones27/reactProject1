@@ -21,7 +21,7 @@
 
 ## Form component 
 
-		*File Code Explanation and Concept Used.*
+*File Code Explanation and Concept Used.*
 	
 		This section of the code is responsible for the user form input.
 			- use to search the weather application base on location input by user
