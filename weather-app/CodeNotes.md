@@ -36,10 +36,18 @@
 
 *Description of the Code Concept used*
 
-- What is a statless (function) component? Why?
-
+- What is a stateless (function) component? Why?
+https://programmingwithmosh.com/javascript/stateful-stateless-components-react/
+	- This type of Component is a plain **JavaScript Function** which takes props as an argument and returns a react element.
+	- This type of Component has not state. (can not use *this.state*)
+	- This type of Component does not has a Component LifeCycle.
+		- Unable to use different method associated with **Mount, Update, and Unmount.**
+		- Can not use Hooks.
+	- Return of React Element
+		- A React Element has many properties but the main 2 properties are:
+			- Type(string)
+			- Props(object)
 	- 
-
 - What is the Arrow Function?
 
 - How does the className="container" works?
@@ -62,5 +70,5 @@
 		Creating regular function 
 
 
-## App.js 
+## App.js (Root Component) 
 	 - root component
