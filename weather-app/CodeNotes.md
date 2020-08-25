@@ -73,8 +73,20 @@
 	- In HTML, form data is usually handled by the DOM. In React, form data is usually handled by the components. 
 	- When the data is handled by the components, all the data is stored in the component state .
 
-- Learning about States and Props?
-	- gkgk
+- Learning about React States and Props?
+	- **States**
+		- https://www.w3schools.com/react/react_state.asp
+		- https://reactjs.org/tutorial/tutorial.html
+		- https://reactjs.org/docs/state-and-lifecycle.html
+		- The State of a component is an object that holds some information that may change over the lifetime of the component.
+		- React components has a built-in state object. The state object is where you store property values that belongs to the component. 
+		- When the state object changes, the component re-renders.
+	- **Props**
+		- https://reactjs.org/docs/components-and-props.html
+		- https://www.w3schools.com/react/react_props.asp
+		- https://learn.co/lessons/react-props
+		- props are immutable (read-only) data used to make React components “talk” to each other.
+		- **Props** is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
 
 - Learn about input and its attributes?
 
