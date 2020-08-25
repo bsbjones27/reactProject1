@@ -74,7 +74,7 @@
 	- When the data is handled by the components, all the data is stored in the component state .
 
 - Learning about States and Props?
-	- 
+	- gkgk
 
 - Learn about input and its attributes?
 
