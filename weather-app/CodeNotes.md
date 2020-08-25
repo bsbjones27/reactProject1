@@ -69,6 +69,7 @@
 - What are forms and its attributes?
 	- https://reactjs.org/docs/forms.html
 	- https://www.w3schools.com/react/react_forms.asp
+	- https://www.w3schools.com/tags/tag_form.asp
 	- Handling forms is about how you handle the data when it changes value or gets submitted. 
 	- In HTML, form data is usually handled by the DOM. In React, form data is usually handled by the components. 
 	- When the data is handled by the components, all the data is stored in the component state .
@@ -85,14 +86,33 @@
 		- https://reactjs.org/docs/components-and-props.html
 		- https://www.w3schools.com/react/react_props.asp
 		- https://learn.co/lessons/react-props
-		- props are immutable (read-only) data used to make React components “talk” to each other.
+		- Props are immutable (read-only) data used to make React components “talk” to each other.
 		- **Props** is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
 
 - Learn about input and its attributes?
+	- https://www.w3schools.com/tags/tag_input.asp
+	- https://www.w3schools.com/html/html_form_attributes.asp
+	- The **input** tag specifies an input field where the user can enter data. 
+	- The **input** element is the most important form element. 
+	- The **input** element can be displayed in several ways, depending on the type attribute.
 
 - Learn about button and its attributes?
+	- https://www.w3schools.com/tags/tag_button.asp
+	- https://www.w3schools.com/css/css3_buttons.asp
+	- The HTML button element represents a clickable button, used to submit forms or anywhere in a document for accessible, standard button functionality.
+
 
 - **DIV** vs. **React.Fragment** ?
+	- https://www.barrymichaeldoyle.com/fragment/
+	- https://www.barrymichaeldoyle.com/fragment/
+	- https://getstream.io/blog/react-fragments/
+	- https://reactjs.org/blog/2017/11/28/react-v16.2.0-fragment-support.html
+
+- **DIV** vs. **span** ?
+	- https://www.tutorialspoint.com/What-is-the-difference-between-HTML-tags-div-and-span
+	- https://htmldog.com/guides/html/intermediate/spandiv/#:~:text=The%20difference%20between%20span%20and,group%20larger%20chunks%20of%20code.
+	- Span element is in-line and usually used for a small chunk of HTML inside a line (such as inside a paragraph)
+	- A div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
 	 
 
 ## weather.componment 
