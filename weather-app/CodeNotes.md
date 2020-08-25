@@ -37,7 +37,7 @@
 *Description of the Code Concept used*
 
 - What is a stateless (function) component? Why?
-https://programmingwithmosh.com/javascript/stateful-stateless-components-react/
+	- https://programmingwithmosh.com/javascript/stateful-stateless-components-react/
 	- This type of Component is a plain **JavaScript Function** which takes props as an argument and returns a react element.
 	- This type of Component has not state. (can not use *this.state*)
 	- This type of Component does not has a Component LifeCycle.
