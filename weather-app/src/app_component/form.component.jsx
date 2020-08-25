@@ -6,7 +6,7 @@ import './form.style.css'
 const Form = props => {
 
     return (
-        // container
+        // container for city, country search input with a button for submission
         <div className="container">
             <div>{props.error ? error() : null} </div>
             <form onSubmit={props.loadweather}>
