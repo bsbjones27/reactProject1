@@ -19,7 +19,7 @@
 
 
 
-	## Form component 
+## Form component 
 
 		*File Code Explanation and Concept Used.*
 	
@@ -55,12 +55,12 @@
 		<div> vs. <React.Fragment> ??
 	 
 
-	## weather.componment 
+## weather.componment 
 
 		what is a stateless functional component?
 
 		Creating regular function 
 
 
-	## App.js 
+## App.js 
 	 - root component
