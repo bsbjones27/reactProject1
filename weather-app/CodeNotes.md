@@ -27,11 +27,11 @@
 - use to search the weather application base on location input by user
 - use of a functional component for this form.
 - error message is implemented if user does not enter anything in the fields
-- input fields are wrap in a <form> tag with an onSubmit attribute.
+- input fields are wrap in a **form** tag with an onSubmit attribute.
 - The form is wrap in a single row container and is made up of 3 column/section.
-	- Note each column has its own <div> tag.
+	- Note each column has its own **div** tag.
 	- uses the **Bootstrap Grid System template**
-	- Container 2 <input> tag and a button for submitting search 
+	- Container 2 **input** tag and a button for submitting search 
 	
 
 *Concept Description*
