@@ -21,38 +21,38 @@
 
 ## Form component 
 
-*File Code Explanation and Concept Used.*
+*Code Structure Explanation*
 	
-- This section of the code is responsible for the user form input.
-- use to search the weather application base on location input by user
+- This Form Component is responsible for the user input to the web application.
+- The Component is use to search the weather application base on location input by user.
 - use of a functional component for this form.
-- error message is implemented if user does not enter anything in the fields
-- input fields are wrap in a **form** tag with an onSubmit attribute.
-- The form is wrap in a single row container and is made up of 3 column/section.
+- An error message is implemented if user does not enter anything in the fields.
+- Input fields are wrap in a **form** tag with an onSubmit attribute.
+- The form is wrap in a single row container and is made up of 3 columns.
 	- Note each column has its own **div** tag.
-	- uses the **Bootstrap Grid System template**
-	- Container 2 **input** tag and a button for submitting search 
+	- Uses the **Bootstrap Grid System template**
+	- Row container has 2 **input** tag column (City and Country) and a column for the button. 
 	
 
-*Concept Description*
+*Description of the Code Concept used*
 
 - What is a statless (function) component? Why?
 
 	- 
 
-What is the Arrow Function?
+- What is the Arrow Function?
 
-how does the className="container" works?
+- How does the className="container" works?
 
-What are forms and its attributes?
+- What are forms and its attributes?
 
-Leaarning about States and Props?
+- Leaarning about States and Props?
 
-learn about input and its attributes?
+- Learn about input and its attributes?
 
-Learn about button and its attributes?
+- Learn about button and its attributes?
 
-<div> vs. <React.Fragment> ??
+- **DIV** vs. **React.Fragment** ??
 	 
 
 ## weather.componment 
