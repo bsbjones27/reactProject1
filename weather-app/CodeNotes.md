@@ -1,9 +1,9 @@
 # Background picture web
-- https://www.pexels.com/search/weather/
+	- https://www.pexels.com/search/weather/
 # weather api
-- https://openweathermap.org/weather-conditions
+	- https://openweathermap.org/weather-conditions
 # weather icons
-- https://github.com/erikflowers/weather-icons
+	- https://github.com/erikflowers/weather-icons
 
 ##Addition implementation
 
