@@ -115,7 +115,7 @@
 	- A div (division) element is block-line (which is basically equivalent to having a line-break before and after it) and used to group larger chunks of code.
 	 
 
-## weather.componment 
+## Weather Componment 
 
 		what is a stateless functional component?
 
