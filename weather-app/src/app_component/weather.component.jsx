@@ -8,7 +8,7 @@ const Weather = (props) => {
         <div className="container text-light">
             <div className="cards pt-4">
                 <h1>{props.city}</h1>
-                {/*specofy top and bottom padding to these h5 tags*/}
+                {/*specify top and bottom padding to these h5 tags*/}
                 <h5 className="ph-4">
                     {/*(UI icon/ font-awe)adding icon and was imported from git hub*/}
                     <i className={`wi ${props.weatherIcon} display-1`}/>
@@ -17,7 +17,6 @@ const Weather = (props) => {
                 {props.temp_celsius ? (<h1 className="py-2">{props.temp_celsius}&deg;</h1>) : null}
  
                 {/** show max and min function */}
-
                 {minmaxTemp(props.temp_min, props.temp_max)}
 
                 <h4 className="py-3">{props.description}</h4>

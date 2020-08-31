@@ -7,11 +7,11 @@
 
 ##Addition implementation
 
-	•	Responsive to other devices
-	•	Present day weather tile plus other tile for the next 7 days !!
-	•	Change back ground base on weather search !!
-	•	Change submit button
-	•	Option to switch between c/f/k
+	ï¿½	Responsive to other devices
+	ï¿½	Present day weather tile plus other tile for the next 7 days !!
+	ï¿½	Change back ground base on weather search !!
+	ï¿½	Change submit button
+	ï¿½	Option to switch between c/f/k
 	- does error message work if one field is left out ??
 
 
@@ -86,7 +86,7 @@
 		- https://reactjs.org/docs/components-and-props.html
 		- https://www.w3schools.com/react/react_props.asp
 		- https://learn.co/lessons/react-props
-		- Props are immutable (read-only) data used to make React components “talk” to each other.
+		- Props are immutable (read-only) data used to make React components ï¿½talkï¿½ to each other.
 		- **Props** is a special keyword in React, which stands for properties and is being used for passing data from one component to another.
 
 - Learn about input and its attributes?
@@ -116,11 +116,49 @@
 	 
 
 ## Weather Componment 
+	
+*Code Structure Explanation*
 
-		what is a stateless functional component?
+- The file is used to display the result from the search input
+- the component will render the weather Icon, Area of the weather, and the temperatures.
+- The File contain a Functional Component and another  function to calculate the range of temperature 
 
-		Creating regular function 
-
+		
 
 ## App.js (Root Component) 
-	 - root component
+
+- This is consider the root component and is the parent component of the application
+
+*Code Structure Explanation*
+
+- importing different Files, installations and modules
+	- import weather icon from website to display icon display
+	- BootStrap was used to improve the view of the UI components
+	- The  weather and Form Component import into the root component to render
+
+- What are API?
+	- Application Program Interface (API) is a set of procedures and tools for building software applications.
+	
+- What is an API call?
+	- The moment you add an endpoint to a URL and send a request to a server, this is what counts as making an API call
+
+- API Fetch??
+
+- The Class App Component
+	- Constructor
+		- Super
+		- this.state
+		- this.weather
+
+	- calculate temperature to be in Fahrenheit as API data is represented in Celcius
+
+	- This section is being used to determine the weather icon to use.
+		- The range from weather api contain different symbols for different
+
+	- Making the API call
+		- fetching api data specifying the data needed along with the APi Key stored
+
+	- The Render method is used to render the different component
+		- As the App.js is the root component it will contain other component to render
+		- The Form Component and The Weather Component
+		- These components contain props to be passed into the component to render and display day on the view.
