@@ -1,7 +1,7 @@
 // import react modules
 import React from 'react';
 
-// didnt use a class......instead uses a stateless functional component 
+// Using a stateless functional component with arrow function
 const Weather = (props) => {
     // return jsx
     return (
@@ -16,7 +16,7 @@ const Weather = (props) => {
                 {/*display current temperature of the search location */}
                 {props.temp_celsius ? (<h1 className="py-2">{props.temp_celsius}&deg;</h1>) : null}
  
-                {/** show max and min function */}
+                {/** show max and min vaslues */}
                 {minmaxTemp(props.temp_min, props.temp_max)}
 
                 <h4 className="py-3">{props.description}</h4>
@@ -24,7 +24,7 @@ const Weather = (props) => {
         </div>
 
     );
-};
+}; 
 
 // the function is used to calculate the range of temperature
 function minmaxTemp(min, max) {

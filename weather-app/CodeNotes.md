@@ -5,13 +5,16 @@
 # weather icons
 	- https://github.com/erikflowers/weather-icons
 
-##Addition implementation
 
-	�	Responsive to other devices
-	�	Present day weather tile plus other tile for the next 7 days !!
-	�	Change back ground base on weather search !!
-	�	Change submit button
-	�	Option to switch between c/f/k
+
+## Addition implementation for future
+
+	- using font awesome icon
+	- Responsive to other devices
+	- Present day weather tile plus other tile for the next 7 days !!
+	- Change back ground base on weather search !!
+	- Change submit button
+	- Option to switch between c/f/k
 	- does error message work if one field is left out ??
 
 
@@ -21,6 +24,10 @@
 
 *Code Structure Explanation*
 	
+- Need Node install for React Project to work
+	- npm install -g create-react-app
+	- npx create-react-app "name"
+	- npm start, this start web server for react (localhost:3000 (default for react))
 - This Form Component is responsible for the user input to the web application.
 - The Component is use to search the weather application base on location input by user.
 - use of a functional component for this form.
@@ -139,6 +146,7 @@
 	
 - What is an API call?
 	- The moment you add an endpoint to a URL and send a request to a server, this is what counts as making an API call
+	- API Doc for websites normally have an example for data fetch syntax with api calls.
 
 - API Fetch??
 

@@ -1,15 +1,18 @@
 // import react modules to the project
 import React from 'react';
-
 import './App.css';
 
 // linking different files and installations
 import 'weather-icons/css/weather-icons.css';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import 'bootstrap/dist/css/bootstrap.min.css'; //need to use npm to install bootstrap
 import Weather from './app_component/weather.component';
 import Form from './app_component/form.component';
 
-//api call => api.openweathermap.org/data/2.5/weather?q=London,uk
+/*
+Current Data
+ - api call => api.openweathermap.org/data/2.5/weather?q=London,uk
+*/
+
 const API_key = "a49f163dd702125a1cf94ae4889b0662";
 
 // app component 
@@ -47,9 +50,9 @@ class App extends React.Component{
         let cell = Math.floor((temp - 273.15)*9/5 + 32);
         return cell; // this is in fahrenheit, need to change variable name.
 
-    }
+    } 
 
-    //using api range on weather  from api website to get specific weather icon
+    //create a method: use api range on weather  from api website to get specific weather icon
     get_WeatherIcon(icons, rangeId) {
         switch (true) {
             case rangeId >= 200 && rangeId <= 232:
@@ -79,6 +82,7 @@ class App extends React.Component{
         }
     }
 
+    // creating a method to fetch data from the api call
     getWeather = async (e) => {
 
         e.preventDefault();
