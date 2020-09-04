@@ -17,8 +17,6 @@
 
 # React App Code Reviewal 
 
-
-
 ## Form component 
 
 *Code Structure Explanation*
